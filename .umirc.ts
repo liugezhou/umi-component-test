@@ -5,9 +5,22 @@ export default defineConfig({
     type: 'none',
   },
   routes: [
-    { path: '/', component: '@/pages/index' },
-    { path: '/nice', component: '@/pages/detail' },
+    {
+      path: '/',
+      component: '@/layouts/index',
+      routes: [
+        {
+          path: '/',
+          component: '@/pages/index'
+        },
+        {
+          path: '/detail',
+          component: '@/pages/detail'
+        }
+      ]
+    }
   ],
+  fastRefresh: {},
   locale: {
     default: 'zh-CN',
     antd: false,
@@ -15,5 +28,5 @@ export default defineConfig({
     baseNavigator: true,
     baseSeparator: '-',
   },
-  fastRefresh: {},
+  mfsu: {}
 });
