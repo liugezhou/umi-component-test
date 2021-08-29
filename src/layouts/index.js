@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { getSiteInfo } from "./utils/service";
+import { getSiteInfo } from "../utils/service";
 import styles from './index.less'
 
 function BasicLayout(props) {
