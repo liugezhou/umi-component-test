@@ -1,9 +1,9 @@
-// import moment from 'moment';
+import moment from 'moment';
 
-// export function fromNow(timestamp) {
-//   const date = new Date(+timestamp);
-//   return moment(date).fromNow();
-// }
+export function fromNow(timestamp) {
+  const date = new Date(+timestamp);
+  return moment(date).fromNow();
+}
 
 export function copy(command) {
   const input = document.createElement('input');

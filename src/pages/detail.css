@@ -1,4 +1,64 @@
+.container {
+  padding: 20px;
+}
 
-.title {
-  background: rgb(121, 242, 208);
+.detailContainer {
+  display: flex;
+}
+
+.detailName {
+  color: #000;
+  font-size: 20px;
+  font-weight: 500;
+  text-align: left;
+}
+
+.detailDescription {
+  color: #999;
+  font-size: 14px;
+  margin-top: 20px;
+}
+
+.detailText {
+  color: #666;
+  font-size: 14px;
+  margin-right: 30px;
+}
+
+.detailBtn {
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+.detailPreview {
+  margin-top: 20px;
+  margin-left: -20px;
+  margin-right: 20px;
+}
+
+.detailUseContainer {
+  padding: 20px;
+  border: 1px solid #ccc;
+  margin-top: 20px;
+}
+
+.detailUseTitle {
+  font-size: 16px;
+  color: #333;
+}
+
+.detailCommandWrapper {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.detailCommand {
+  padding: 10px 20px;
+  background: #eee;
+}
+
+.detailReadme {
+  margin-top: 20px;
+  text-align: left;
 }
